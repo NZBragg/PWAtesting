@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/search.css"
+      rel="stylesheet"
+    />
+    <title>Mobile Inventory</title>
+  </head>
+  <body>
+    <header>
+      <div id="brand"><p>Woodard</p></div>
+      <div class="search">
+          <input
+            id="searchBar"
+            onkeyup="searchTable()"
+            type="text"
+            placeholder="Type to search..."
+          />
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#Inventory" class="active">Inventory</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <img
+            class="MobileWoodardLogo"
+            src="images/woodard-furniture-logo.png"
+            alt="mobile Woodard logo"
+          />
+          <li><a href="#Inventory" class="active">Inventory</a></li>
+          <li><a href="Contact">Contact</a></li>
+          <li id="login"><a href="/login">Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="wrapper">
+      <table class="inventoryTable" id="invTable">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+  <script src="javaing.js"></script>
+</html>
