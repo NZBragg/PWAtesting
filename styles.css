@@ -120,7 +120,6 @@ table {
 thead {
   background-color: #40739e;
   color: white;
-
 }
 
 th, td {
@@ -173,6 +172,7 @@ tbody tr:hover {
   justify-content: flex-start;
 }
 
+/*Must be toggled on; mobile only*/
 .mobile-menu {
   display: none;
   background-color: #2d3436;
@@ -180,10 +180,10 @@ tbody tr:hover {
   font-size: 32px;
   top: 50px;
   opacity: 100%;
+  padding: 50px;
   left: 0;
   height: calc(100vh - 50px);
   width: 100%;
-  transition: 0.2s;
 }
 
 .mobileWoodardLogo {
@@ -202,15 +202,6 @@ tbody tr:hover {
   #brand {
     display: none;
   }
-
-  #login, #signup {
-  border: none;
-}
-
-#login a, #signup a {
-  color: white;
-}
-}
 
 @media only screen and (min-width: 768) {
   header {
