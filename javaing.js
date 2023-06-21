@@ -1,5 +1,12 @@
 function toggleMobileMenu(menu) {
   menu.classList.toggle("open");
+
+  var x = document.getElementById("searchBar");
+  if (x.style.opacity === "0") {
+    x.style.opacity = "1";
+  } else {
+    x.style.opacity = "0";
+  }
 }
 
 //JSON data into Table
