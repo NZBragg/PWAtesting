@@ -1,5 +1,5 @@
 {
-  "headers": ["COLLECTION", "ITEM #", "STOCK", "BACKORDERED"],
+  "headers": ["Collection", "Item #", "Stock", "Backorder"],
   "rows": [
     ["Set 1", "101592", 3, "0"],
     ["Set 2", "162353", 0, 5],
